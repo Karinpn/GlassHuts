@@ -1,0 +1,346 @@
+/* hut */
+
+.hut {
+    background: url("../img/imeg-hut.jpg") no-repeat center top/cover;
+    padding: 110px 0 80px;
+    position: relative;
+}
+.hut::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333333;
+    opacity: 0.7;
+    z-index: 1;
+}
+.hut__wrapper {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: -60px;
+}
+.hut__title {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 70px;
+}
+.hut__geo {
+    margin: 15px 0 65px;
+    display: flex;
+    justify-content: center;
+}
+.hut__link {
+    color: #fff;
+    text-decoration-line: underline;
+    font-size: 18px;
+    margin-left: 6px;
+}
+.hut__btn {
+    border: 0.7px solid #FFFFFF;
+    padding: 18px 55px;
+    color: white;
+    text-transform: uppercase;
+}
+.hut__btn:hover {
+  background: #fff;
+  color: #333333;
+  transition: all 0.5s ease;
+}
+
+/* ///// */
+
+.outside {
+    padding: 150px 0 200px;
+}
+.wrapper-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tab__title {
+    color: #5B6460;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .tab__links {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 50px 0 50px;
+  }
+  .tab__links li {
+    display: inline-block !important;
+  }
+  .tab__links li a {
+    display: block;
+  }
+  .tab__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .tab__item a {
+    color: #5B6460;
+  }
+  .tab__item.active {
+    border-bottom: 1px solid #5B6460;
+  }
+  .tab__content {
+    width: 440px;
+  }
+  .tab__content-item {
+    color: #333333;
+    display: none;
+  }
+  .tab__content-item.active {
+    display: block;
+  }
+  .inside {
+    padding-bottom: 200px;
+  } 
+  .practicalities {
+    padding-bottom: 200px;
+  }
+  .disabled {
+    opacity: 0.2;
+    pointer-events: none;
+  }
+
+  /* Slider */
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .slick-list:focus {
+    outline: none;
+  }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table;
+  }
+  .slick-track:after {
+    clear: both;
+  }
+  .slick-loading .slick-track {
+    visibility: hidden;
+  }
+  
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+  }
+  [dir=rtl] .slick-slide {
+    float: right;
+  }
+  .slick-slide img {
+    display: block;
+  }
+  .slick-slide.slick-loading img {
+    display: none;
+  }
+  .slick-slide.dragging img {
+    pointer-events: none;
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+  .slick-loading .slick-slide {
+    visibility: hidden;
+  }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+  
+  .slick-arrow.slick-hidden {
+    display: none;
+  }
+/*  */
+
+  .slider {
+    width: 50%;
+  }
+  .slider .slick-arrow {
+    font-size: 0px;
+    border: 0px;
+    position: absolute;
+    bottom: -18%;
+    cursor: pointer;
+    width: 40px;
+    background-color: white;
+  }
+  .slider .slick-prev {
+    background-image: url("../img/black-arrow2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .slider .slick-next {
+    background-image: url("../img/black-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 80px;
+  }
+  .slider .slick-dots {
+    display: flex;
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    font-size: 0;
+  }
+  .slider .slick-dots li {
+    list-style: none;
+    display: inline-block;
+  }
+  .slider .slick-dots button {
+    width: 15px;
+    height: 1.5px;
+    border: none;
+    opacity: 0.3;
+  }
+  .slider .slick-dots li.slick-active button {
+    background-color: #333333;
+    opacity: 0.9;
+  }
+  
+  
+  
+  /* large: 992px - 1199px */
+  @media (max-width: 1199px) {
+      
+   
+  }
+  /* large: 768px - 991px */
+  @media (max-width: 991px) {
+    .outside {
+      padding: 120px 0 170px;
+    }
+    .inside {
+      padding-bottom: 60px;
+    }
+    .practicalities {
+      padding: 50px 0 120px;
+    }
+    .wrapper-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .slider {
+      width: 70%;
+      order: 2;
+      margin-top: 50px;
+    }
+    .slider__img {
+      width: 100%;
+    }
+  }
+  /* small: 576px - 767px */
+  @media (max-width: 767px) {
+   
+    .slider {
+      width: 100%;
+    }
+    .hut {
+      padding: 150px 0px 0;
+      height: 550px;
+    }
+    .hut__title {
+      font-size: 60px;
+    }
+    .hut__link {
+      font-size: 16px;
+    }
+    
+  }
+  /* Extra small: (0px (320px) - 575px) */
+  @media (max-width: 575px) {
+    
+    .tab__content {
+      width: auto;
+    }
+    .hut {
+      padding-top: 50px;
+    }
+    .hut__wrapper {
+      margin-top: 0px;
+    }
+    .hut__title {
+      font-size: 50px;
+    }
+    .hut__link {
+      font-size: 14px;
+    }
+    .hut__btn {
+      font-size: 13px;
+    }
+    .tab__title {
+      font-size: 25px;
+    }
+    .tab__links li a {
+      font-size: 14px;
+    }
+    .tab__links {
+      margin: 25px 0 25px;
+    }
+    .tab__content-item p {
+      font-size: 14px;
+    }
+    .outside {
+      padding: 90px 0 110px;
+    }
+    .breadcrumbs {
+      margin-bottom: 50px;
+    }
+    .slider .slick-dots {
+      bottom: -23%;
+    }
+}
+  
