@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>ABOUT US - The Glass Huts</title>
+</head>
+<body>
+    <header class="header header-sticky" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <!-- mobile-menu -->
+                <div class="mobile-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <a class="logo" href="index.html"> <img src="img/logo.svg" alt="logo"></a>
+                <nav class="menu">
+                    <ul class="menu__list" id="navigation">
+                        <li class="menu__item">
+                            <a class="menu__link" href="index.html">home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="hut.html">the hut</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="area.html">the area</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="booking.html">booking</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="about.html">about us</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="faq.html">faq</a>
+                        </li>
+                        <li class="language-selector">
+                            <img src="img/united-kingdom.svg" alt="language">
+                        </li>
+                    </ul>
+                </nav>
+                <a class="btn header__btn" href="#">book now</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about"> 
+            <div class="container">
+              <div class="about__wrapper">
+                <h2 class="about__title">About Us</h2>
+                <div class="about__geo"><img src="img/geo.svg" alt=""/>
+                    <a class="about__link" href="#">Vesterborg, Denmark</a>
+                </div>
+                <div class="about__btns">
+                    <a class="about__btn" href="#">contact us</a>
+                    <a class="about__btn" href="faq.html">read faq</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="outside-about"> 
+            <div class="container"> 
+              <div class="outside-about__wrapper"> <img src="img/about-outside.jpg" alt="outside"/>
+                <div class="outside-about__content"> 
+                  <h3 class="outside-about__title">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</h3>
+                  <p class="outside-about__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="gallery">
+            <h2 class="gallery__title">Lorem ipsum dolor sit amet, consectetur adipiscing...</h2>
+            <div class="gallery__imgs"> 
+              <div class="gallery__img"> <img src="img/img1.jpg" alt="gallery"/><img src="img/img2.jpg" alt="gallery"/><img src="img/img3.jpg" alt="gallery"/>
+                <p class="gallery__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><img src="img/img4.jpg" alt="gallery"/>
+              </div>
+            </div>
+          </section>
+          <section class="connection">
+            <div class="container"> 
+              <h2 class="connection__title connection__title_margin">Stay in touch with us</h2>
+              <div class="connection__wrapper"> 
+                <div class="connection__us">  
+                  <p class="connection__city">Vesterborg, Denmark</p>
+                  <ul class="connection__contacts">
+                    <li class="connection__contact-item"><a href="tel:123456789000">+123 456 789 000</a></li>
+                    <li class="connection__contact-item"><a href="mailto:info@theglasshuts.com">  info@theglasshuts.com</a></li>
+                  </ul>
+                  <ul class="connection__messangers"> 
+                    <li class="connection__messanger-item"><a class="connection__message-link" href="#"><img src="img/instagram.svg" alt="instagram"/></a></li>
+                    <li class="connection__messanger-item"><a class="connection__message-link" href="#"> <img src="img/facebook.svg" alt="facebook"/></a></li>
+                    <li class="connection__messanger-item"><a class="connection__message-link" href="#"> <img src="img/twitter.svg" alt="twitter"/></a></li>
+                  </ul>
+                </div>
+                <div class="wrapper-form" id="wrapper-form">
+                  <form class="form-contact" action="mail.php" id="form-contact" method="post">
+                    <div class="form-contact__name">
+                      <input class="form-contact__input" type="text" id="firstname" placeholder="First Name" name="firstName"/>
+                      <input class="form-contact__input" type="text" id="lastname" placeholder="Last Name" name="firstName"/>
+                    </div>
+                    <input class="form-contact__input" type="text" id="email" placeholder="Email" name="email"/>
+                    <input class="form-contact__input" type="text" id="subject" placeholder="Subject" name="subject"/>
+                    <input class="form-contact__input form-contact__input_rosemer" type="text" id="message" placeholder="Message" name="message"/>
+                    <button class="form-contact__btn btn" type="submit">send</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="withLove"> 
+            <img class="withLove__img" src="img/love.svg" alt="with love"/>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content"> 
+          <div class="container"> 
+            <div class="footer__inner"> 
+              <div class="footer__letter">
+                <h6 class="footer__title">Newsletter</h6>
+                <form class="footer__form" action="">
+                  <input class="footer__form-input" type="email" placeholder="Email Adrdess"/><a class="footer__form-btn" href="#"><img src="img/pointer.svg" alt="btn"/></a>
+                </form>
+                <p class="footer__text">Sign up to our newsletter for special things and receive 10% off your next order.</p><span class="footer__name-site">© 2023 The Glass Huts</span>
+              </div>
+              <div class="footer__info"> 
+                <div class="footer__info-policy"> 
+                  <ul class="footer__policy-list"> 
+                    <li class="footer__policy-item"> <a class="footer__policy-link" href="#">terms and conditions</a></li>
+                    <li class="footer__policy-item"><a class="footer__policy-link" href="#">cencellation policy </a></li>
+                    <li class="footer__policy-item"> <a class="footer__policy-link" href="#">privacy policy </a></li>
+                  </ul>
+                </div>
+                <div class="footer__info-pay"> 
+                  <ul class="footer__pay-list"> 
+                    <li class="footer__pay-item"> <a class="footer__pay-link" href="#"><img src="img/paypal-logo.svg" alt="PayPal"/></a></li>
+                    <li class="footer__pay-item"> <a class="footer__pay-link" href="#"> <img src="img/mastercard.svg" alt="Mastercard"/></a></li>
+                    <li class="footer__pay-item"> <a class="footer__pay-link" href="#"><img src="img/visa.svg" alt="Visa"/></a></li>
+                    <li class="footer__pay-item"><a class="footer__pay-link" href="#"> <img src="img/bank.svg" alt="bank"/></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6vtNI14TAMfGAD8zlv9dSRWwjrfPRopY&callback=initMap" async defer></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html >
+<html lange="ru">
+  <head> <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <title>BOOKING - The Glass Huts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+<body>
+    <header class="header header-sticky" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <!-- mobile-menu -->
+                <div class="mobile-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <a class="logo" href="index.html"> <img src="img/logo.svg" alt="logo"></a>
+                <nav class="menu">
+                    <ul class="menu__list" id="navigation">
+                        <li class="menu__item">
+                            <a class="menu__link" href="index.html">home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="hut.html">the hut</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="area.html">the area</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="booking.html">booking</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="about.html">about us</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="faq.html">faq</a>
+                        </li>
+                        <li class="language-selector">
+                            <img src="img/united-kingdom.svg" alt="language">
+                        </li>
+                    </ul>
+                </nav>
+                <a class="btn header__btn" href="#">book now</a>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="main">    
+        <section class="booking"> 
+          <div class="container">
+            <div class="booking__wrapper">
+              <h2 class="booking__prev-title">Booking </h2>
+              <div class="booking__prev-geo"><img src="img/geo.svg" alt=""/>
+                <a class="booking__prev-link" href="#">Vesterborg, Denmark</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="additional-services"> 
+          <div class="container"> 
+            <div class="additional-services__inner">
+              <div class="additional-services__wrapper">
+                <h3 class="additional-services__title">Choose Additional Services</h3>
+                <div class="additional-services__item"> 
+                  <button class="additional-services__title-btn" type="button" tabindex="-1">Fresh Breakfast for one<span class="additional-services__price">400kr</span></button>
+                  <div class="additional-services__content-wrapper">
+                    <h4 class="additional-services__title-content">Lorem ipsum </h4>
+                    <div class="additional-services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                  </div>
+                </div>
+                <div class="additional-services__item"> 
+                  <button class="additional-services__title-btn" type="button" tabindex="-1">Fresh Breakfast for two<span class="additional-services__price">500kr</span></button>
+                  <div class="additional-services__content-wrapper">
+                    <h4 class="additional-services__title-content">Lorem ipsum </h4>
+                    <div class="additional-services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                  </div>
+                </div>
+                <div class="additional-services__item"> 
+                  <button class="additional-services__title-btn" type="button" tabindex="-1">Classic Dinner for one<span class="additional-services__price">600kr</span></button>
+                  <div class="additional-services__content-wrapper">
+                    <h4 class="additional-services__title-content">Classic Dinner</h4>
+                    <div class="additional-services__text">Bread, Coffee, milk, juice, and a selection of spreads + toppings.</div>
+                  </div>
+                </div>
+                <div class="additional-services__item"> 
+                  <button class="additional-services__title-btn" type="button" tabindex="-1">Classic Dinner for two<span class="additional-services__price">800kr</span></button>
+                  <div class="additional-services__content-wrapper">
+                    <h4 class="additional-services__title-content">Lorem ipsum </h4>
+                    <div class="additional-services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                  </div>
+                </div>
+                <div class="additional-services__item"> 
+                  <button class="additional-services__title-btn" type="button" tabindex="-1">Electric Car Charge<span class="additional-services__price">800kr</span></button>
+                  <div class="additional-services__content-wrapper">
+                    <h4 class="additional-services__title-content">Lorem ipsum </h4>
+                    <div class="additional-services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                  </div>
+                </div>
+              </div>
+              <div class="booking-inner"> 
+                <div class="booking-inner__price">3.200kr<span>/ night</span></div>
+                <div class="booking-inner__form">
+                  <form class="booking-form" action="#"> 
+                    <div class="booking-form__input-group"> 
+                      <label for="checkin">Check in</label>
+                      <input type="text" id="checkin" name="checkin" placeholder="Add dates"/>
+                    </div>
+                    <div class="booking-form__input-group"> 
+                      <label for="checkout">Check out</label>
+                      <input type="text" id="checkout" name="checkout" placeholder="Add dates"/>
+                    </div>
+                    <div class="booking-form__input-group"> 
+                      <label for="guests">Guests</label>
+                      <input type="number" id="guests" name="guests" min="1" max="10"/>
+                    </div>
+                  </form><a class="booking-form__btn" href="indexpay.html">book</a>
+                </div>
+                <div class="booking-goods__wrapper">
+                  <ul class="booking-goods__list"> 
+                    <li class="booking-goods__item">3.200kr x 2 nights</li>
+                    <li class="booking-goods__item">Classic Dinner for one</li>
+                    <li class="booking-goods__item">Electric Car Charge</li>
+                    <li class="booking-goods__item">10% discount</li>
+                  </ul>
+                  <ul class="booking-goods__list"> 
+                    <li class="booking-goods__item">6.400kr</li>
+                    <li class="booking-goods__item">600kr</li>
+                    <li class="booking-goods__item">800kr</li>
+                    <li class="booking-goods__item">-200kr</li>
+                  </ul>
+                </div>
+                <div class="booking-inner__total"> 
+                  <div class="booking-inner__title">Total</div>
+                  <div class="booking-inner__sum">7.000kr</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="info-huts"> 
+          <div class="container">
+            <div class="info-huts__content">
+              <h3 class="info-huts__title">Hut rules</h3>
+              <ul class="info-huts__list">
+                <li class="info-huts__item">
+                  <p class="info-huts__text">Check-in:  2:00 PM - 11:00 PM</p>
+                </li>
+                <li class="info-huts__item">
+                  <p class="info-huts__text">Checkout: 11:00 AM</p>
+                </li>
+                <li class="info-huts__item">
+                  <p class="info-huts__text">Not suitable for children and infants</p>
+                </li>
+                <li class="info-huts__item">
+                  <p class="info-huts__text">No smoking</p>
+                </li>
+                <li class="info-huts__item">
+                  <p class="info-huts__text">No pets</p>
+                </li>
+              </ul>
+            </div>
+            <div class="info-huts__content">                       
+              <h3 class="info-huts__title">Cancellation policy</h3>
+              <p class="info-huts__text">Free cancellation until 1:00 PM on Mar 27</p>
+              <p class="info-huts__text">After that, cancel before 2:00 PM on Apr 1 and get a 50% refund, minus the first night and service fee.</p>
+            </div>
+            <div class="info-huts__content">                       
+              <h3 class="info-huts__title">Important Information </h3>
+              <p class="info-huts__text">You need to hike a steep hill to arrive at the treehouses, it takes approx 20-30 minutes on a trail with stairs and uneven ground.</p>
+            </div>
+            <a class="info-huts__btn btn">read faq</a>
+          </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content"> 
+          <div class="container"> 
+            <div class="footer__inner"> 
+              <div class="footer__letter">
+                <h6 class="footer__title">Newsletter</h6>
+                <form class="footer__form" action="">
+                  <input class="footer__form-input" type="email" placeholder="Email Adrdess"/>
+                  <a class="footer__form-btn" href="#">
+                    <img src="img/pointer.svg" alt="btn"/>
+                  </a>
+                </form>
+                <p class="footer__text">Sign up to our newsletter for special things and receive 10% off your next order.</p>
+                <span class="footer__name-site">© 2023 The Glass Huts</span>
+              </div>
+              <div class="footer__info"> 
+                <div class="footer__info-policy"> 
+                  <ul class="footer__policy-list"> 
+                    <li class="footer__policy-item"> <a class="footer__policy-link" href="#">terms and conditions</a></li>
+                    <li class="footer__policy-item"><a class="footer__policy-link" href="#">cencellation policy </a></li>
+                    <li class="footer__policy-item"> <a class="footer__policy-link" href="#">privacy policy </a></li>
+                  </ul>
+                </div>
+                <div class="footer__info-pay"> 
+                  <ul class="footer__pay-list"> 
+                    <li class="footer__pay-item"> <a class="footer__pay-link" href="#"><img src="img/paypal-logo.svg" alt="PayPal"/></a></li>
+                    <li class="footer__pay-item"> <a class="footer__pay-link" href="#"> <img src="img/mastercard.svg" alt="Mastercard"/></a></li>
+                    <li class="footer__pay-item"> <a class="footer__pay-link" href="#"><img src="img/visa.svg" alt="Visa"/></a></li>
+                    <li class="footer__pay-item"><a class="footer__pay-link" href="#"> <img src="img/bank.svg" alt="bank"/></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="js/jquery-3.7.1.js"></script>
+      <script src="js/slick.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
